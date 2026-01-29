@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fabAddTask" type="id" />
+    <item name="tvAddTaskLabel" type="id" />
+    <item name="tvHeader" type="id" />
+    <item name="main" type="id" />
+    <item name="rvTasks" type="id" />
+</resources>

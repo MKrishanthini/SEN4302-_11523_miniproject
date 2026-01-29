@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:padding="0dp"> <!-- REMOVE padding here -->
+
+    <!-- Full-width Header -->
+    <TextView
+        android:id="@+id/tvDialogHeader"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#6200EE"
+        android:text="Add Task"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <!-- Title input -->
+
+    <!-- Description input -->
+    <EditText
+        android:id="@+id/etTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Title"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/etTaskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:minLines="3"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"/>
+
+    <!-- Save button -->
+    <Button
+        android:id="@+id/btnSaveTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#008000"
+        android:text="Save Task"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
