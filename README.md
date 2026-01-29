@@ -1,8 +1,9 @@
 # SEN4302 Mini Project - Task Manager App
 
-## This is a Mini Project for the SEN4302 course, developed as an Android Task Manager App using Kotlin in Android Studio.
-## The app allows users to add, view, edit, and delete tasks easily, with a modern and intuitive interface.
+This is a Mini Project for the SEN4302 course, developed as an Android Task Manager App using Kotlin in Android Studio.
+The app allows users to add, view, edit, and delete tasks easily, with a modern and intuitive interface.
 It demonstrates the use of RecyclerView, dialogs, and Floating Action Button (FAB) for task management.
+
 **Student:** 11523  
 **Degree:** Bsc science Hons in Software Engineering 
 
